@@ -4,13 +4,14 @@
  */
 
 #include <stdio.h>
+
 int main() {
     int i, n, sum = 0;
     printf("Enter the nth term: ");
     scanf("%d", &n);
 
-    for(i = 0; i<=n; i++) {
-        sum += i*2;
+    for(i=0; i<=n; i++) {
+        sum+=i*2;
     }
     printf("The sum of even numbers from 0th term to %dth term is: %d\n", n, sum);
 
