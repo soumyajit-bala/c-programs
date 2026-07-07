@@ -1,6 +1,7 @@
 //This code determine whether a point lies inside the circle or not.
 #include<stdio.h>
 #include<math.h>
+
 int main() {
     float xc, yc, r, x, y, distance;
     printf("Input the center of the circle (xc, yc):");

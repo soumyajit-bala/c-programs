@@ -10,8 +10,8 @@ int main() {
     printf("Enter the last natural number: ");
     scanf("%d", &n);
 
-    for(int i=1; i<=n; i++) {
-        sum+=i;
+    for(int i = 1; i <= n; i++) {
+        sum += i;
     }
     printf("The sum of natural numbers from 1 to %d is %d.\n", n, sum);
     return 0;
