@@ -2,6 +2,7 @@
  * Program: Reverse a number.
  * Description: Accepts an integer and displays its digits in reverse order.
  */
+
 #include <stdio.h>
 
 int main() {
