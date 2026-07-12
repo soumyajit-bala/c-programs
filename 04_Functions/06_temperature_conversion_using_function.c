@@ -4,7 +4,7 @@
  *              and returns the opposite value back.
  */
 
- #include <stdio.h>
+#include <stdio.h>
 float celsius_to_fahrenheit(float temperature);
 float fahrenheit_to_celsius(float temperature);
 
@@ -18,18 +18,18 @@ int main() {
 
     switch(choice) {
         case 1: 
-        printf("Enter your celsius value: ");
-        scanf("%f", &temperature);
-        printf("The fahrenheit value is: %.2f\n", celsius_to_fahrenheit(temperature));
-        break;
+            printf("Enter your celsius value: ");
+            scanf("%f", &temperature);
+            printf("The fahrenheit value is: %.2f\n", celsius_to_fahrenheit(temperature));
+            break;
 
         case 2: 
-        printf("Enter your fahrenheit value: ");
-        scanf("%f", &temperature);
-        printf("The celsius value is: %.2f\n", fahrenheit_to_celsius(temperature));
-        break;
+            printf("Enter your fahrenheit value: ");
+            scanf("%f", &temperature);
+            printf("The celsius value is: %.2f\n", fahrenheit_to_celsius(temperature));
+            break;
         default: 
-        printf("Enter valid number\n");
+            printf("Enter valid number\n");
     }
 
     return 0;
