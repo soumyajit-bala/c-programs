@@ -13,17 +13,12 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-    if(is_even(n)) {
-        printf("Even\n");
-    }
-    else {
-        printf("Odd\n");
-    }
+    is_even(n) ? printf("Even\n") : printf("Odd\n");
 
     return 0;
 }
 
 int is_even(int n) {
 
-    return n %2 == 0;
+    return n % 2 == 0;
 }
