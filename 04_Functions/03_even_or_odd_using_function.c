@@ -1,7 +1,7 @@
 /*
  * Program: Check whether a number is even or odd using a function.
  * Description: Accepts an integer from the user and determines
- *              whether it is even or odd using the even_or_odd() function.
+ *              whether it is even or odd using the is_even() function.
  */
 
 #include <stdio.h>
