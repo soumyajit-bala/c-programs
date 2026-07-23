@@ -25,7 +25,7 @@ int gcd(int a, int b) {
     if(a <= b) {
         n = a;
     }
-    if(a > b) {
+    else {
         n = b;
     }
     
